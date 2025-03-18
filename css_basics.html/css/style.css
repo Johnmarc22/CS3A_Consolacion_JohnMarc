@@ -1,0 +1,47 @@
+/* External CSS */
+.button {
+    color: white;
+    background-color: #007BFF;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Parent-Child Example */
+header {
+    font-family: 'Arial', sans-serif;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: darkblue;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Trying different background-color and font settings */
+a {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: rgb(0, 195, 255);
+    color: black;
+}
